@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": 
+    [
+      {
+        "name": "launch app",
+        "type": "cppdbg",  
+        "request": "launch",
+        "program": "${workspaceFolder}/build/thrdpool",  
+        "args": [], 
+        "cwd": "${workspaceFolder}",
+        "externalConsole": false,  
+        "MIMode": "gdb",  
+        "miDebuggerPath": "/usr/bin/gdb", 
+        "stopAtEntry": false  
+      }
+    ]
+  }
